@@ -55,14 +55,14 @@ const Footer = () => {
         
         {/* Left-aligned 'Made By' section */}
         <div className="flex-1 text-center md:text-left text-sm text-gray-300 dark:text-gray-400">
-          Made with 💖 by Gautam
+          Made with 💖 by Abhishek
         </div>
         
         {/* Center-aligned Copyright Section */}
         <p className="flex-1 text-center text-xs md:text-sm text-gray-300 dark:text-gray-400">
           &copy; {new Date().getFullYear()}{' '}
           <a
-            href="https://x.com/xXGauTamxX_"
+            href="https://x.com/Abhishe93466529"
             className="text-green-500 font-semibold underline hover:text-red-500"
             target="_blank"
             rel="noopener noreferrer"
@@ -73,13 +73,13 @@ const Footer = () => {
         
         {/* Right-aligned Social Links */}
         <div className="flex-1 flex justify-center md:justify-end gap-4">
-          <SocialLink href="https://x.com/xXGauTamxX_" icon={XIcon} className="text-gray-400 hover:text-blue-500">
+          <SocialLink href="https://x.com/Abhishe93466529" icon={XIcon} className="text-gray-400 hover:text-blue-500">
             X
           </SocialLink>
-          <SocialLink href="https://github.com/gautamkumar1" icon={GitHubIcon} className="text-gray-400 hover:text-white">
+          <SocialLink href="https://github.com/tle002" icon={GitHubIcon} className="text-gray-400 hover:text-white">
             GitHub
           </SocialLink>
-          <SocialLink href="https://www.linkedin.com/in/gautamkum4r/" icon={LinkedInIcon} className="text-gray-400 hover:text-purple-500">
+          <SocialLink href="https://www.linkedin.com/in/abhishek-k-g/" icon={LinkedInIcon} className="text-gray-400 hover:text-purple-500">
           LinkedIn
           </SocialLink>
         </div>

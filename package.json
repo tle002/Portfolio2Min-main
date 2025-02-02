@@ -7,7 +7,7 @@
     "start": "nodemon server/index.js",
     "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
-  "author": "Gautam kumar",
+  "author": "Abhishek Kumar Gupta",
   "license": "ISC",
   "description": "",
   "dependencies": {
